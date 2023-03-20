@@ -1,0 +1,12 @@
+[package]
+name = "fs-tiktoken-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+clap = { version = "4.1.11", features = ["derive"] }
+glob = "0.3.1"
+tiktoken-rs = "0.3.2"
