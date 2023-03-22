@@ -38,7 +38,7 @@ The compiled binary will be available at ./target/release/token-trekker.
 To count tokens in a directory or for files matching a glob pattern, run the following command:
 
 ```sh
-token-trekker --path <path_or_glob_pattern> --tokenizer <tokenizer>
+token-trekker --path <path_or_glob_pattern> <tokenizer>
 ```
 
 Replace <path_or_glob_pattern> with the path to the directory or the glob pattern of the files to process, and <tokenizer> with one of the available tokenizer options:
@@ -52,5 +52,5 @@ Replace <path_or_glob_pattern> with the path to the directory or the glob patter
 For example:
 
 ```sh
-token-trekker --path "path/to/files/*.txt" --tokenizer p50k-base
+token_trekker_rs --path "path/to/files/*.txt"  p50k-base
 ```
