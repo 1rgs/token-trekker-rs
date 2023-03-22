@@ -1,12 +1,19 @@
 [package]
-name = "fs-tiktoken-rs"
+name = "token_trekker_rs"
 version = "0.1.0"
-edition = "2021"
+edition = "2018"
+authors = ["Rahul Sengottuvelu <rgsduke@gmail.com>"]
+description = "A fun and efficient Rust library to count tokens in text files using different tokenizers."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
 
 [dependencies]
 anyhow = "1.0.70"
 clap = { version = "4.1.11", features = ["derive"] }
+colored = "2.0.0"
 glob = "0.3.1"
+prettytable-rs = "0.10.0"
+rayon = "1.7.0"
 tiktoken-rs = "0.3.2"
