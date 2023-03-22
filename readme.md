@@ -52,5 +52,5 @@ Replace <path_or_glob_pattern> with the path to the directory or the glob patter
 For example:
 
 ```sh
-token_trekker_rs --path "path/to/files/*.txt"  p50k-base
+token_trekker_rs --path "path/to/files/*.txt" p50k-base
 ```
