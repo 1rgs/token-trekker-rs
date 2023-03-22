@@ -1,6 +1,6 @@
-# token-trekker-rs
+# token_trekker_rs
 
-`token-trekker-rs` is a command-line tool for counting the total number of tokens in all files within a directory or matching a glob pattern, using various tokenizers.
+`token_trekker_rs` is a command-line tool for counting the total number of tokens in all files within a directory or matching a glob pattern, using various tokenizers.
 
 ## Features
 
@@ -10,19 +10,19 @@
 
 ## Installation
 
-To install `token-trekker-rs` from crates.io, run:
+To install `token_trekker_rs` from crates.io, run:
 
 ```sh
-cargo install token-trekker-rs
+cargo install token_trekker_rs
 ```
 
 ## Building from Source
 
-To build token-trekker-rs from the source code, first clone the repository:
+To build token_trekker_rs from the source code, first clone the repository:
 
 ```sh
-git clone https://github.com/1rgs/token-trekker-rs.git
-cd token-trekker-rs
+git clone https://github.com/1rgs/token_trekker_rs.git
+cd token_trekker_rs
 ```
 
 Then build the project using cargo:
